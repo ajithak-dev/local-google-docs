@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    padding: auto;
+}
+
+h1{
+    color: black;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 250px;
+    color: white;
+    background-color: rgb(63, 173, 221);
+    border-color: transparent;
+    position: relative;
+    left:90%;
+    top:750px;
+    font-size: 30px;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between cards */
+    padding: 16px; /* Optional padding for the container */
+    justify-content: center; /* Center the cards horizontally */
+}
+
+/* Card styling */
+.card {
+    background-color: #fff; /* Background color of the card */
+    border: 1px solid #ddd; /* Border styling */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+    width: 300px; /* Fixed width for the card */
+    padding: 16px; /* Padding inside the card */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+}
+
+.card h3 {
+    margin-top: 0; /* Remove top margin from heading */
+}
+
+.card p {
+    margin-bottom: 0; /* Remove bottom margin from paragraph */
+}

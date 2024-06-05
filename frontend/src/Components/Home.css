@@ -1,0 +1,26 @@
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 30px;
+}
+
+.new-btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(63, 173, 221);
+    border-color: transparent;
+    font-size: 30px;
+    position: absolute;
+    top:85%;
+    left: 90%;
+}
+
+button .link-btn{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
